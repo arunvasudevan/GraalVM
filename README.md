@@ -5,11 +5,11 @@ This repository tests out some of the GraalVM features such as:
  2. Executing native-image to achieve faster startup
  
  
- **Prerequisite:** 
+ **Prerequisite** 
  Install GraalVM in your local - https://blog.softwaremill.com/graalvm-installation-and-setup-on-macos-294dd1d23ca2
  
  
- **Build:**
+ **Execute**
  
-- Run `javac <filename.java>`
-- Run `java -cp . <filename>`
+- `javac <filename.java>`
+- `java -cp . <filename>`

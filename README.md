@@ -15,7 +15,7 @@ This repository tests out some of the GraalVM features such as:
 - `java -cp . <filename>`
 
 
-Commands:
+**Commands**
 
 - To Test Polyglot Code (GraalVM Console):
 
@@ -26,14 +26,14 @@ java -cp . HelloPolyglot
 
 - To see a Faster Startup:
 
-JVM Console:
+**JVM Console**:
 
 javac GraalVMTest.java
 
 time java -cp . GraalVMTest
 
 
-GraalVM Console:
+**GraalVM Console**
 
 javac GraalVMTest.java
 

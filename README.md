@@ -6,6 +6,7 @@ This repository tests out some of the GraalVM features such as:
  
  
  **Prerequisite** 
+ 
  Install GraalVM in your local - https://blog.softwaremill.com/graalvm-installation-and-setup-on-macos-294dd1d23ca2
  
  

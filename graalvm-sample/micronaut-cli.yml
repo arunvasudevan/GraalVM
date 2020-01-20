@@ -1,0 +1,9 @@
+profile: service
+defaultPackage: com.example.micronaut
+---
+testFramework: junit
+sourceLanguage: java
+
+micronaut:
+    server:
+        port: 8086

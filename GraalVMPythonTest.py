@@ -1,1 +1,1 @@
-print('Hello', name, 'from Python!')
+print('Hello', name, 'from Python')

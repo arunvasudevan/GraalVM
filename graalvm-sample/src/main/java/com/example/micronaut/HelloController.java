@@ -8,6 +8,6 @@ import io.micronaut.http.annotation.Get;
 public class HelloController {
     @Get(produces = MediaType.TEXT_PLAIN)
     public String index() {
-        return "Hello World";
+        return "Hello from GraalVM";
     }
 }

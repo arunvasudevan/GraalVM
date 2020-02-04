@@ -1,19 +1,19 @@
 package com.example.micronaut;
 
-import com.example.micronaut.model.RobberInput;
-import com.example.micronaut.model.RobberOutput;
+import java.util.List;
 
+import io.micronaut.context.annotation.Parameter;
 import io.micronaut.http.annotation.Controller;
-import io.micronaut.http.annotation.Post;
+import io.micronaut.http.annotation.Get;
 
 @Controller("/robber")
 public class HouseRobberController {
 
-    @Post()
-    public RobberOutput getMaxValue(RobberInput robberInput){
-        RobberOutput robberOutput = new RobberOutput();
-        int maxMoney = HouseRobber.rob(robberInput.getValueListByHouse());
-        robberOutput.setMaxMoney(maxMoney);
-        return robberOutput;
+    @Get("/{valueListByHouse}")
+    public Integer getMaxValue(@Parameter List<Integer> valueListByHouse){
+        //RobberOutput robberOutput = new RobberOutput();
+        int maxMoney = HouseRobber.rob(valueListByHouse);
+
+        return maxMoney;
     }
 }

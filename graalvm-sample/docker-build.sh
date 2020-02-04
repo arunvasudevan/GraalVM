@@ -1,6 +1,6 @@
 #!/bin/sh
-docker build . -t graalvm-sample
+docker build . -t dl2.homeawaycorp.com/eg-data-platform/graalvm-sample
 echo
 echo
 echo "To run the docker container execute:"
-echo "    $ docker run -p 8080:8080 graalvm-sample"
+echo "    $ docker run -p 8086:8086 graalvm-sample"
